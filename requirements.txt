@@ -96,7 +96,7 @@ googleapis-common-protos==1.63.2
     #   grpcio-status
 greenlet==3.0.3
     # via playwright
-grep-ast==0.3.2
+grep-ast @ git+https://github.com/Fundrise/grep-ast@d3c8d9a
     # via -r requirements.in
 grpcio==1.64.1
     # via
@@ -309,7 +309,7 @@ tree-sitter==0.21.3
     # via
     #   -r requirements.in
     #   tree-sitter-languages
-tree-sitter-languages==1.10.2
+tree-sitter-languages @ git+https://github.com/Fundrise/py-tree-sitter-languages@988fd5c
     # via grep-ast
 typing-extensions==4.12.2
     # via
